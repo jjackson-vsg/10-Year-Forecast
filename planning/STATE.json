@@ -5,7 +5,7 @@
   "nextActor": "Claude",
   "nextAction": "Author L01-L03 prompts from research/briefs/CLAUDE_BRIEFS.md; validate six-prompt coverage; hand the run queue to Jason.",
   "stages": {
-    "S0": "prepared-awaiting-remote-verification",
+    "S0": "complete",
     "S1": "codex-prompts-complete-claude-prompts-pending",
     "S2": "not-started",
     "S3": "not-started",
@@ -17,5 +17,6 @@
   },
   "blockers": [],
   "researchOutputsReceived": [],
-  "releaseReady": false
+  "releaseReady": false,
+  "migrationEvidence": "qa/MIGRATION.md"
 }

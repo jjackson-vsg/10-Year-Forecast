@@ -1,0 +1,102 @@
+[
+  {
+    "year": 2027,
+    "path": "dist/art/year-2027.webp",
+    "thumbnail": "dist/art/year-2027-small.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 454216,
+    "sha256": "164c7cdfa6fa8718fd48cc4a024c2506f250f7f1514820fc97f20206ddbc5c7f",
+    "generator": "OpenAI image generation; model version not exposed"
+  },
+  {
+    "year": 2028,
+    "path": "dist/art/year-2028.webp",
+    "thumbnail": "dist/art/year-2028-small.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 501864,
+    "sha256": "5f9dd8e5e20a2c85a13c0e02e0b7b98b4c0a1da5c5272b0403d2d11758550d96",
+    "generator": "OpenAI image generation; model version not exposed"
+  },
+  {
+    "year": 2029,
+    "path": "dist/art/year-2029.webp",
+    "thumbnail": "dist/art/year-2029-small.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 451366,
+    "sha256": "34e75d5a420442d4a54b846802b71e45ecfb4dd4e10831e08aee07a8a907c0f6",
+    "generator": "OpenAI image generation; model version not exposed"
+  },
+  {
+    "year": 2030,
+    "path": "dist/art/year-2030.webp",
+    "thumbnail": "dist/art/year-2030-small.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 561052,
+    "sha256": "4a225994d6032b169f1c6e157b9f33b0ea70a6cd41f1cc3c7471a2d5321229ed",
+    "generator": "OpenAI image generation; model version not exposed"
+  },
+  {
+    "year": 2031,
+    "path": "dist/art/year-2031.webp",
+    "thumbnail": "dist/art/year-2031-small.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 532462,
+    "sha256": "b58b28b62bb805c4c17bd162287b20c8c4063209c3cf09c675dbb0b9395f41d0",
+    "generator": "OpenAI image generation; model version not exposed"
+  },
+  {
+    "year": 2032,
+    "path": "dist/art/year-2032.webp",
+    "thumbnail": "dist/art/year-2032-small.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 580556,
+    "sha256": "4d88cd5a77270956779c12ae81fb3ab488d534ccd6f21251172c90aae8384422",
+    "generator": "OpenAI image generation; model version not exposed"
+  },
+  {
+    "year": 2033,
+    "path": "dist/art/year-2033.webp",
+    "thumbnail": "dist/art/year-2033-small.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 533946,
+    "sha256": "ae7e42ede55647b230d1662173e57445d389c398af12d2ffc22edd1c81775181",
+    "generator": "OpenAI image generation; model version not exposed"
+  },
+  {
+    "year": 2034,
+    "path": "dist/art/year-2034.webp",
+    "thumbnail": "dist/art/year-2034-small.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 498490,
+    "sha256": "cb633bcbf38778fb35b43f8c8ee1d866dcaffeca7df5b975d081009adcb4427b",
+    "generator": "OpenAI image generation; model version not exposed"
+  },
+  {
+    "year": 2035,
+    "path": "dist/art/year-2035.webp",
+    "thumbnail": "dist/art/year-2035-small.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 520982,
+    "sha256": "ca406a3c8e95199e2f7b01fc4654b199c3e52266b6def0ac4f665010487258ed",
+    "generator": "OpenAI image generation; model version not exposed"
+  },
+  {
+    "year": 2036,
+    "path": "dist/art/year-2036.webp",
+    "thumbnail": "dist/art/year-2036-small.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 485034,
+    "sha256": "c64294caae00fef366b47c93d72f55d66244ef825a813d11af17b96610dc038f",
+    "generator": "OpenAI image generation; model version not exposed"
+  }
+]

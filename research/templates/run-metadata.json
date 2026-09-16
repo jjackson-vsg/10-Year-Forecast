@@ -1,0 +1,14 @@
+{
+  "reportId": null,
+  "runDate": null,
+  "informationCutoff": null,
+  "provider": null,
+  "modelAsDisplayed": null,
+  "promptPath": null,
+  "promptSha256": null,
+  "followUpPrompts": [],
+  "outputPath": null,
+  "outputSha256": null,
+  "status": "received-unchecked",
+  "limitations": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "horizon-ten-year-forecast",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "export:data": "node scripts/export-data.mjs",
+    "validate": "node scripts/validate.mjs"
+  }
+}

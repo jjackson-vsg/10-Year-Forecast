@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "reports": [
+    {
+      "id": "C01",
+      "promptAuthor": "Codex",
+      "researchChat": "ChatGPT deep research",
+      "prompt": "prompts/codex/C01-ai-software.md",
+      "status": "prompt-ready",
+      "output": null,
+      "metadata": null
+    },
+    {
+      "id": "C02",
+      "promptAuthor": "Codex",
+      "researchChat": "ChatGPT deep research",
+      "prompt": "prompts/codex/C02-physical-world.md",
+      "status": "prompt-ready",
+      "output": null,
+      "metadata": null
+    },
+    {
+      "id": "C03",
+      "promptAuthor": "Codex",
+      "researchChat": "ChatGPT deep research",
+      "prompt": "prompts/codex/C03-economy-society.md",
+      "status": "prompt-ready",
+      "output": null,
+      "metadata": null
+    },
+    {
+      "id": "L01",
+      "promptAuthor": "Claude",
+      "researchChat": "Claude research",
+      "prompt": null,
+      "status": "prompt-pending",
+      "output": null,
+      "metadata": null
+    },
+    {
+      "id": "L02",
+      "promptAuthor": "Claude",
+      "researchChat": "Claude research",
+      "prompt": null,
+      "status": "prompt-pending",
+      "output": null,
+      "metadata": null
+    },
+    {
+      "id": "L03",
+      "promptAuthor": "Claude",
+      "researchChat": "Claude research",
+      "prompt": null,
+      "status": "prompt-pending",
+      "output": null,
+      "metadata": null
+    }
+  ]
+}

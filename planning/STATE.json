@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-09-16",
+  "currentStage": "S1",
+  "nextActor": "Claude",
+  "nextAction": "Author L01-L03 prompts from research/briefs/CLAUDE_BRIEFS.md; validate six-prompt coverage; hand the run queue to Jason.",
+  "stages": {
+    "S0": "prepared-awaiting-remote-verification",
+    "S1": "codex-prompts-complete-claude-prompts-pending",
+    "S2": "not-started",
+    "S3": "not-started",
+    "S4": "not-started",
+    "S5": "not-started",
+    "S6": "not-started",
+    "S7": "not-started",
+    "S8": "not-started"
+  },
+  "blockers": [],
+  "researchOutputsReceived": [],
+  "releaseReady": false
+}

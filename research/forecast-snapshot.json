@@ -1,0 +1,1127 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "16 September 2026",
+  "originalForecastRevision": "seed-v1",
+  "originalForecastRepository": "https://github.com/jjackson-vsg/10-Year-Forecast",
+  "methodology": "Dated editorial synthesis. Confidence labels concern direction, not measured probabilities. Model identities follow repository labels and are not independently authenticated. See docs/RESEARCH.md.",
+  "models": [
+    {
+      "id": "astra",
+      "name": "Astra",
+      "version": "GPT6 · repository label",
+      "file": "2027-36-GPT6-Astra.md",
+      "color": "#d7ff79",
+      "stance": "Broad, sourced, still ambitious",
+      "strength": "The clearest source trail and useful distinctions between technical progress and real-world deployment.",
+      "caution": "Its practical-AGI date and robotics take-off are judgements, not conclusions established by its citations. Some energy numbers now have a newer edition.",
+      "url": "https://github.com/jjackson-vsg/10-Year-Forecast/blob/seed-v1/2027-36-GPT6-Astra.md"
+    },
+    {
+      "id": "fable",
+      "name": "Fable",
+      "version": "5.1 · repository label",
+      "file": "2027-36-Fable5.1.md",
+      "color": "#bdb8ff",
+      "stance": "The fastest economic transformation",
+      "strength": "Makes its big bets explicit: rapid automation, a capital-spending correction and political fights over the gains.",
+      "caution": "Specific market falls, elections, growth rates and catastrophe odds are not calibrated or independently supported. The document calls itself Claude.",
+      "url": "https://github.com/jjackson-vsg/10-Year-Forecast/blob/seed-v1/2027-36-Fable5.1.md"
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "version": "4.6 · repository label",
+      "file": "2027-36-Grok4.6.md",
+      "color": "#ffb28d",
+      "stance": "Geopolitics and physical constraints",
+      "strength": "Pays attention to conflict, finance, reliability and the gap between a prototype and an economic product.",
+      "caution": "The asserted one-in-three Taiwan invasion risk by 2028 is unattributed. A named danger window should not be mistaken for an expert consensus.",
+      "url": "https://github.com/jjackson-vsg/10-Year-Forecast/blob/seed-v1/2027-36-Grok4.6.md"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "version": "3.8 Flash · repository label",
+      "file": "2027-36-Gemini3.8-Flash.md",
+      "color": "#86d8cf",
+      "stance": "A dense technology roadmap",
+      "strength": "Adds useful breadth: infrastructure, sovereign computing, materials, authentication and public services.",
+      "caution": "Many exact dates and claims of dominant or universal adoption have no source trail. Treaty, health and lunar-habitation milestones are especially speculative.",
+      "url": "https://github.com/jjackson-vsg/10-Year-Forecast/blob/seed-v1/2027-36-Gemini3.8-Flash.md"
+    }
+  ],
+  "sources": {
+    "ai": {
+      "n": 1,
+      "org": "Stanford HAI",
+      "title": "AI Index 2026 · Technical performance",
+      "date": "2026",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance",
+      "type": "Research synthesis",
+      "note": "Documents agent progress and persistent failures. Benchmarks do not establish autonomous job replacement or an AGI date."
+    },
+    "jobs": {
+      "n": 2,
+      "org": "ILO",
+      "title": "Generative AI and jobs: A 2025 update",
+      "date": "20 May 2025",
+      "url": "https://www.ilo.org/publications/generative-ai-and-jobs-2025-update",
+      "type": "Exposure estimate",
+      "note": "One in four workers is in an occupation with some exposure. This measures task exposure, not a forecast that one in four jobs disappears."
+    },
+    "energy": {
+      "n": 3,
+      "org": "IEA",
+      "title": "Key Questions on Energy and AI · Executive summary",
+      "date": "2026 edition",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "type": "Updated projection",
+      "note": "Estimates data-centre electricity use at 485 TWh in 2025 and projects 950 TWh in 2030. Updates the older 945 TWh projection used by Astra."
+    },
+    "electricity": {
+      "n": 4,
+      "org": "IEA",
+      "title": "Electricity 2026 · Executive summary",
+      "date": "2026",
+      "url": "https://www.iea.org/reports/electricity-2026/executive-summary",
+      "type": "Projection to 2030",
+      "note": "Projects 3.6% annual demand growth for 2026–30 and roughly half of generation from renewables plus nuclear in 2030."
+    },
+    "ev": {
+      "n": 5,
+      "org": "IEA",
+      "title": "Global EV Outlook 2026 · Executive summary",
+      "date": "2026",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/executive-summary",
+      "type": "Policy-dependent scenarios",
+      "note": "Projects electric-car adoption and a wider EV fleet reaching as many as 510 million by 2035, excluding two- and three-wheelers. EV definitions include plug-in hybrids."
+    },
+    "climate": {
+      "n": 6,
+      "org": "WMO / UK Met Office",
+      "title": "Global Annual to Decadal Climate Update 2026–2035",
+      "date": "28 May 2026",
+      "url": "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/global-annual-decadal-climate-update-2026-2035",
+      "type": "Probabilistic climate outlook",
+      "note": "Gives a 91% chance of at least one year above 1.5°C in 2026–30 and an 86% chance of a new annual record. These are not long-term Paris-threshold probabilities."
+    },
+    "population": {
+      "n": 7,
+      "org": "UN DESA",
+      "title": "World Population Prospects 2024 · Population trends",
+      "date": "14 November 2024",
+      "url": "https://desapublications.un.org/policy-briefs/un-desa-policy-brief-no-167-leveraging-population-trends-more-sustainable-and",
+      "type": "Demographic projections",
+      "note": "63 countries and areas, containing 28% of the 2024 population, had already peaked in population. Many other places continue growing."
+    },
+    "artemis": {
+      "n": 8,
+      "org": "NASA",
+      "title": "Artemis III mission in 2027: crew and mission details",
+      "date": "9 June 2026",
+      "url": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
+      "type": "Programme target",
+      "note": "NASA targets an Earth-orbit test for Artemis III in 2027 and an Artemis IV lunar landing in 2028. These are plans, not guaranteed delivery dates."
+    },
+    "pqc": {
+      "n": 9,
+      "org": "NIST",
+      "title": "Post-Quantum Cryptography · Migration timeline",
+      "date": "Updated 5 August 2026",
+      "url": "https://csrc.nist.gov/projects/post-quantum-cryptography",
+      "type": "Standards transition",
+      "note": "Quantum-vulnerable algorithms are due to leave NIST standards by 2035, with high-risk systems moving earlier. This is not a global completion deadline."
+    },
+    "quantum": {
+      "n": 10,
+      "org": "IBM",
+      "title": "IBM Quantum Roadmap",
+      "date": "Roadmap checked September 2026",
+      "url": "https://www.ibm.com/roadmaps/quantum/",
+      "type": "Vendor target",
+      "note": "Targets Starling in 2029 and a larger Blue Jay system in 2033+. A vendor roadmap establishes ambition, not successful commercial advantage."
+    },
+    "nato": {
+      "n": 11,
+      "org": "NATO",
+      "title": "Defence investment and the 5% commitment",
+      "date": "Updated 29 June 2026",
+      "url": "https://www.nato.int/en/what-we-do/introduction-to-nato/defence-expenditures-and-natos-5-commitment",
+      "type": "Political commitment",
+      "note": "The 2035 framework combines at least 3.5% of GDP for core defence with up to 1.5% for broader security and resilience. Delivery remains political."
+    },
+    "odni": {
+      "n": 12,
+      "org": "US Office of the DNI",
+      "title": "2026 Annual Threat Assessment · Taiwan, p. 22",
+      "date": "2026",
+      "url": "https://archive.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf#page=22",
+      "type": "US intelligence assessment",
+      "note": "Assesses no current Chinese plan for a 2027 invasion or fixed unification timetable, while recognising force capabilities and escalation risks. This is one government’s assessment."
+    },
+    "imf": {
+      "n": 13,
+      "org": "IMF",
+      "title": "World Economic Outlook Update, July 2026",
+      "date": "8 July 2026",
+      "url": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+      "type": "Near-term macro forecast",
+      "note": "Projects 3.0% global growth in 2026 and 3.4% in 2027, with conflict and market-repricing risks. It does not forecast a 2035 AI boom."
+    },
+    "gene": {
+      "n": 14,
+      "org": "US FDA",
+      "title": "Gene therapy approval for young children with sickle cell disease",
+      "date": "1 July 2026",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-young-children-sickle-cell-disease",
+      "type": "Regulatory approval",
+      "note": "Casgevy’s expanded indication demonstrates real progress in specific genetic conditions. It does not establish general longevity or common-disease cures."
+    },
+    "education": {
+      "n": 15,
+      "org": "UNESCO",
+      "title": "Guidance for generative AI in education and research",
+      "date": "2023 · page updated January 2026",
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "type": "Policy and education guidance",
+      "note": "Emphasises human involvement, age-appropriate use, privacy and pedagogical validation. It does not predict a year of universal AI tutoring."
+    },
+    "provenance": {
+      "n": 16,
+      "org": "C2PA",
+      "title": "Content Credentials · Technical specification 2.2",
+      "date": "Specification 2.2",
+      "url": "https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+      "type": "Technical standard",
+      "note": "Provides a mechanism to authenticate media provenance. Adoption, preserved metadata and trusted signers remain essential."
+    },
+    "fusion": {
+      "n": 17,
+      "org": "US Department of Energy",
+      "title": "Office of Fusion · Science and Technology Roadmap",
+      "date": "Roadmap completed June 2026",
+      "url": "https://www.energy.gov/fusion/office-fusion",
+      "type": "Programme roadmap",
+      "note": "Aims to enable a US fusion pilot power plant in the mid-2030s. A pilot is distinct from cheap, repeatable, large-scale commercial generation."
+    },
+    "adaptation": {
+      "n": 18,
+      "org": "UNEP",
+      "title": "Adaptation Gap Report 2025",
+      "date": "29 October 2025",
+      "url": "https://www.unep.org/resources/adaptation-gap-report-2025",
+      "type": "Modelled finance needs",
+      "note": "Estimates developing-country adaptation needs at $310bn–$365bn annually in 2035, against $26bn in international public flows in 2023. The measures and years differ."
+    }
+  },
+  "years": [
+    {
+      "year": 2027,
+      "phase": "The deployment years",
+      "title": "AI leaves the chat window.",
+      "summary": "Expect more software that completes work. The hard part becomes trusting it with the next step.",
+      "signal": "Reliability beats spectacle",
+      "watch": "Look for completed workflows with fewer human interventions, rather than better demonstrations.",
+      "takes": [
+        "Useful multi-hour agents; software teams reorganise.",
+        "Reliable multi-day agents already; early hiring pressure.",
+        "Back-office automation grows, constrained by the real economy.",
+        "Routine workflows shift predominantly to autonomous agents."
+      ],
+      "events": [
+        {
+          "id": "agents",
+          "topic": "AI & work",
+          "title": "From assistant to colleague",
+          "summary": "Agents handle larger parts of coding, support and administration. People still supervise exceptions, permissions and important decisions.",
+          "confidence": "Medium",
+          "window": "2027–2029",
+          "why": "The productivity gain comes from finishing an entire workflow. A system that saves drafting time but needs constant repair may save little overall.",
+          "evidence": "Stanford reports substantial computer-task progress alongside frequent failures; the ILO expects job transformation to be more common than full replacement.",
+          "watch": "Independently measured completion rates, total supervision time and entry-level hiring.",
+          "caveat": "We soften Fable’s reliable multi-day claim and Gemini’s predominantly autonomous claim. Capability does not guarantee adoption.",
+          "refs": [
+            "ai",
+            "jobs"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "grid",
+          "topic": "Energy",
+          "title": "The bottleneck is the connection",
+          "summary": "Access to electricity, chips and financing increasingly determines where new computing capacity can actually open.",
+          "confidence": "High",
+          "window": "2027–2030",
+          "why": "Fast-growing demand meets infrastructure that takes years to permit and build. Regions with spare capacity gain an advantage.",
+          "evidence": "The IEA’s 2026 update identifies tighter grid, equipment and chip constraints.",
+          "watch": "Energised capacity, transformer delivery times and cancelled projects.",
+          "caveat": "Local shortages can be severe even while data centres remain a small share of global electricity use.",
+          "refs": [
+            "energy"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "growth",
+          "topic": "World & economy",
+          "title": "A recovery with fault lines",
+          "summary": "Modest global growth is more plausible than an immediate AI-led boom. War, energy costs and debt can overwhelm technological gains.",
+          "confidence": "Medium",
+          "window": "2027–2028",
+          "why": "Technology investment supports some economies while expensive imports and weak public finances hold others back.",
+          "evidence": "The IMF projects 3.4% global growth in 2027 in its July 2026 update.",
+          "watch": "Inflation, energy trade disruption, investment returns and business spending.",
+          "caveat": "This is a revisable institutional forecast, not certainty. We do not carry its growth rate into the 2030s.",
+          "refs": [
+            "imf"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2028,
+      "phase": "The deployment years",
+      "title": "The demo meets the real world.",
+      "summary": "Useful automation spreads unevenly. Trust, physical reliability and geopolitical restraint matter as much as raw capability.",
+      "signal": "Deployment is the test",
+      "watch": "Look for paid renewals and dependable operating hours, not shipment announcements alone.",
+      "takes": [
+        "Persistent agents; industrial robots; no invasion in the base case.",
+        "AI correction of 30–40%; capabilities keep advancing.",
+        "Taiwan crisis risk peaks; robotics begins affecting selected sectors.",
+        "Viable humanoids, a binding orbital treaty and new battery milestones."
+      ],
+      "events": [
+        {
+          "id": "factory",
+          "topic": "AI & work",
+          "title": "Robots earn their place on a shift",
+          "summary": "Expect more useful robots in controlled workplaces before broadly capable machines in ordinary homes.",
+          "confidence": "Medium",
+          "window": "2028–2032",
+          "why": "A repetitive environment can make a narrow robot valuable. Homes demand much more versatility and safety at a price households can afford.",
+          "evidence": "Stanford’s 2026 review finds a large gap between controlled robotic tasks and real household success.",
+          "watch": "Paid deployment renewals, intervention rates and cost per productive hour.",
+          "caveat": "There is no well-supported year when general humanoids become a universal economic substitute for workers.",
+          "refs": [
+            "ai"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "media",
+          "topic": "AI & society",
+          "title": "Seeing needs a source",
+          "summary": "Synthetic media increases the value of verified origins, known publishers and secure identity checks. Provenance helps; it does not settle truth.",
+          "confidence": "High",
+          "window": "2028–2032",
+          "why": "Scams and disputed recordings impose costs even when nobody can reliably identify a fake by sight.",
+          "evidence": "C2PA already specifies signed provenance for digital content.",
+          "watch": "Camera and platform support, retained credentials and real verification habits.",
+          "caveat": "A genuine recording can mislead; absent credentials do not prove a fake. Mandatory universal adoption is not established.",
+          "refs": [
+            "provenance"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "gemini"
+          ]
+        },
+        {
+          "id": "taiwan",
+          "topic": "World & economy",
+          "title": "Taiwan remains a risk, not a date",
+          "summary": "Continued pressure is the central scenario. Blockade, conflict and miscalculation remain consequential alternatives at any point in the decade.",
+          "confidence": "Medium",
+          "window": "2027–2036",
+          "why": "A crisis could disrupt semiconductor supply, shipping, investment and the political assumptions behind the whole timeline.",
+          "evidence": "The 2026 US intelligence assessment does not identify a current plan for a 2027 invasion or a fixed timetable.",
+          "watch": "Sustained mobilisation, shipping restrictions, civilian preparations and working crisis communications.",
+          "caveat": "This is a judgement, not a quantified risk estimate. Grok’s unattributed one-in-three claim is not adopted.",
+          "refs": [
+            "odni"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2029,
+      "phase": "The deployment years",
+      "title": "Progress gets a reality check.",
+      "summary": "Some investments disappoint even as the technology improves. Lunar ambitions and financial expectations face delivery tests.",
+      "signal": "Ambition ≠ delivery",
+      "watch": "Separate money raised, hardware demonstrated and services actually delivered.",
+      "takes": [
+        "AI investment shakeout around 2028–30; Moon landing in 2029.",
+        "Remote-worker AI; UK/US SMRs; Moon landing in 2029–30.",
+        "Robot economics improve; lunar return pushed to around 2030.",
+        "Late-stage AI drugs; sovereign computing and storage spread."
+      ],
+      "events": [
+        {
+          "id": "capex",
+          "topic": "World & economy",
+          "title": "A shakeout is plausible",
+          "summary": "An AI investment correction could arrive while usage continues growing. Its date, size and market winners are unknowable in advance.",
+          "confidence": "Speculative",
+          "window": "2028–2031",
+          "why": "Expensive assets need sustained revenue. A useful technology can still attract more capital than its early earnings justify.",
+          "evidence": "The IEA flags capital-market dependence; the IMF identifies financial repricing as a risk.",
+          "watch": "Utilisation, cash generation, refinancing costs and customers renewing paid contracts.",
+          "caveat": "We retain the scenario but reject a scheduled crash or an unsupported 30–40% fall as the central forecast.",
+          "refs": [
+            "energy",
+            "imf"
+          ],
+          "origin": [
+            "astra",
+            "fable"
+          ]
+        },
+        {
+          "id": "moon",
+          "topic": "Space & science",
+          "title": "The Moon moves within reach",
+          "summary": "A crewed lunar return in the late 2020s or early 2030s is plausible. It remains a difficult programme, with delay risk.",
+          "confidence": "Medium",
+          "window": "2028–2031",
+          "why": "Docking, landers, life support and the launch sequence all have to work together. A successful mission could restart repeated exploration.",
+          "evidence": "NASA targets an Artemis III Earth-orbit test in 2027 and an Artemis IV landing in 2028.",
+          "watch": "Integrated demonstrations, lander readiness and sustained programme funding.",
+          "caveat": "2029 is our window’s centre, not NASA’s announced date. It is not a guaranteed milestone.",
+          "refs": [
+            "artemis"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok"
+          ]
+        },
+        {
+          "id": "conflicts",
+          "topic": "World & economy",
+          "title": "A ceasefire is not a settlement",
+          "summary": "A prolonged armed stand-off in Ukraine and recurring Middle East disruption remain plausible even if intense fighting subsides.",
+          "confidence": "Speculative",
+          "window": "2027–2031",
+          "why": "Stopping major combat can be easier than settling territorial disputes or establishing security arrangements that every party accepts.",
+          "evidence": "The IMF’s July 2026 outlook identifies war-related economic drag and renewed conflict as risks. It does not forecast peace dates.",
+          "watch": "Verified and sustained ceasefires, security guarantees, civilian safety and reliable commercial shipping.",
+          "caveat": "This is a synthesis of the originals, not an independently established geopolitical timetable. We retain neither a guaranteed armistice date nor a predicted regime collapse.",
+          "refs": [
+            "imf"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2030,
+      "phase": "The scaling years",
+      "title": "The future needs a bigger grid.",
+      "summary": "Electrification is a stronger bet than any single breakthrough. More clean power and more climate damage can happen at the same time.",
+      "signal": "The physical world sets the pace",
+      "watch": "Track completed infrastructure, not just announcements or installed nameplate capacity.",
+      "takes": [
+        "AI affects productivity; solar, EVs and data-centre demand expand.",
+        "Expert-level cognition; cold peace; long-term 1.5°C threshold crossed.",
+        "Power trade-offs; demographic stress; possible lunar return.",
+        "SMR commissioning and completed post-quantum migrations."
+      ],
+      "events": [
+        {
+          "id": "electric",
+          "topic": "Energy",
+          "title": "An increasingly electric economy",
+          "summary": "Transport, cooling, industry and computation put more pressure on power systems. Cleaner generation expands, but fossil fuels remain important.",
+          "confidence": "High",
+          "window": "2027–2030",
+          "why": "Electricity is the link between several changes that are often forecast separately. Transmission and flexibility matter alongside generation.",
+          "evidence": "The IEA projects 3.6% annual electricity-demand growth and about half of generation from renewables plus nuclear in 2030.",
+          "watch": "Grid additions, peak-demand management, battery use and delivered electricity costs.",
+          "caveat": "The figures are scenario projections. A bigger low-carbon share is not the same as a fossil-free energy system.",
+          "refs": [
+            "electricity"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "heat",
+          "topic": "Climate",
+          "title": "Records keep falling",
+          "summary": "Expect repeated dangerous heat and rising adaptation needs. We cannot responsibly name a record year or an exact long-term threshold crossing.",
+          "confidence": "High",
+          "window": "2026–2030",
+          "why": "The costs arrive through health, water, agriculture, infrastructure and insurance, with very unequal exposure.",
+          "evidence": "WMO gives an 86% chance of a new annual heat record during 2026–30 and a 91% chance of at least one year above 1.5°C.",
+          "watch": "Multi-year temperature trends, heat exposure and financed adaptation.",
+          "caveat": "An individual hot year is not a long-term Paris Agreement threshold breach. Fable’s exact 2030 placement is not retained.",
+          "refs": [
+            "climate"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "productive",
+          "topic": "AI & work",
+          "title": "Productivity gains, unevenly shared",
+          "summary": "AI-led firms may produce more with smaller teams. Whole-economy gains probably arrive unevenly as organisations change how they work.",
+          "confidence": "Medium",
+          "window": "2029–2033",
+          "why": "Cheaper individual tasks help only if firms can reorganise processes, maintain quality and find demand for the extra output.",
+          "evidence": "The ILO distinguishes task exposure from redundancy; the IMF recognises technology investment alongside persistent economic risks.",
+          "watch": "Output per hour, median wages, firm-level margins and new business creation.",
+          "caveat": "Fable’s specific 2031 US growth rate and 2035 global boom are upside bets, not a defensible central path.",
+          "refs": [
+            "jobs",
+            "imf"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2031,
+      "phase": "The scaling years",
+      "title": "Capability is only half the story.",
+      "summary": "The question becomes where powerful tools are reliable, affordable and allowed to operate.",
+      "signal": "Outcomes matter more than labels",
+      "watch": "Ask what a system completes, how often it fails and who carries responsibility.",
+      "takes": [
+        "Median practical-AGI date; specialised AI throughout medicine.",
+        "Measured productivity breakout; health screening; bio/cyber scare.",
+        "Labour-market division; first meaningful fusion pilot.",
+        "Autonomous trucking dominates designated corridors; routine orbital manufacturing."
+      ],
+      "events": [
+        {
+          "id": "agi",
+          "topic": "AI & work",
+          "title": "AGI is still a disputed milestone",
+          "summary": "Broadly capable digital systems are plausible in the early 2030s. A precise arrival year and a single decisive test are much weaker claims.",
+          "confidence": "Speculative",
+          "window": "2030–2035+",
+          "why": "Competence across tasks does not automatically deliver reliable long-horizon work, independent learning or responsibility for real consequences.",
+          "evidence": "Current evaluations show both impressive performance and uneven capabilities. They do not establish a trend that guarantees AGI.",
+          "watch": "Novel-task transfer, long-horizon reliability and independent evaluations with real costs.",
+          "caveat": "Astra’s 2031 median and Fable’s earlier trajectory are hypotheses. Plateau or slower progress remains possible.",
+          "refs": [
+            "ai"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok"
+          ]
+        },
+        {
+          "id": "medicine",
+          "topic": "Health",
+          "title": "More diseases become treatable",
+          "summary": "Gene and cell therapies plausibly expand across specific conditions. Access, manufacturing and long-term safety may limit their everyday impact.",
+          "confidence": "Medium",
+          "window": "2030–2036",
+          "why": "A treatment breakthrough matters only when patients can receive it safely and health systems can deliver and fund it.",
+          "evidence": "The FDA’s 2026 Casgevy expansion is a concrete example of progress in defined genetic disorders.",
+          "watch": "Clinical outcomes, eligibility, manufacturing capacity and treatment access.",
+          "caveat": "This evidence does not support routine anti-ageing treatment, universal cancer cures or guaranteed common-disease gene editing by 2029.",
+          "refs": [
+            "gene"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "driverless",
+          "topic": "AI & society",
+          "title": "Autonomy grows by geography",
+          "summary": "Driverless transport expands in suitable operating areas. Weather, local rules, economics and difficult edge cases keep adoption patchy.",
+          "confidence": "Medium",
+          "window": "2029–2034",
+          "why": "A dependable service in one city or freight corridor can be valuable without solving every road everywhere.",
+          "evidence": "Stanford documents substantial autonomous-taxi deployment alongside geographically constrained operating conditions.",
+          "watch": "Independent safety data, operating coverage, fares and remote-assistance needs.",
+          "caveat": "Gemini’s dominant interstate-freight share by 2031 is a stronger claim than the evidence supports.",
+          "refs": [
+            "ai"
+          ],
+          "origin": [
+            "astra",
+            "gemini"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2032,
+      "phase": "The scaling years",
+      "title": "Automation reaches beyond the desk.",
+      "summary": "More physical tasks become economic to automate. Schools and care systems still revolve around people.",
+      "signal": "Useful, not universal",
+      "watch": "Look for durable improvements to daily services, not just more devices.",
+      "takes": [
+        "Robotics take-off; imperfect home robots; SMRs begin to matter.",
+        "AI tutors standard; oil peak behind us; homes still niche.",
+        "More automated factory cells; Earth-orbit business grows.",
+        "Routine preventive genomics; resilient microgrids; diversified minerals."
+      ],
+      "events": [
+        {
+          "id": "service",
+          "topic": "AI & work",
+          "title": "A broader working life for robots",
+          "summary": "Mobile robots and manipulators spread in logistics, hospitals and commercial facilities. General domestic help remains a harder market.",
+          "confidence": "Medium",
+          "window": "2031–2035",
+          "why": "Repetition, labour shortages and workable layouts can justify machines that would still struggle in a cluttered home.",
+          "evidence": "The gap between household and controlled-task performance remains visible in current robotics evaluations.",
+          "watch": "Fleet uptime, worker outcomes, intervention frequency and service costs.",
+          "caveat": "We do not assume a single robotics “moment” or treat all mobile machines as humanoids.",
+          "refs": [
+            "ai",
+            "population"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "tutors",
+          "topic": "AI & society",
+          "title": "Tutoring gets more personal",
+          "summary": "Adaptive voice and visual learning support becomes easier to access. Its value depends on teaching quality, safety and measured learning.",
+          "confidence": "Medium",
+          "window": "2030–2034",
+          "why": "Affordable practice could help many learners, but schools also provide relationships, care and social development.",
+          "evidence": "UNESCO calls for human-centred, age-appropriate design and educational validation.",
+          "watch": "Learning outcomes against credible comparisons, accessibility and teacher workload.",
+          "caveat": "Wide availability does not establish benefit. Universal use or disappearing qualifications is not assumed.",
+          "refs": [
+            "education"
+          ],
+          "origin": [
+            "astra",
+            "fable"
+          ]
+        },
+        {
+          "id": "nuclear",
+          "topic": "Energy",
+          "title": "Firm clean power has a bigger role",
+          "summary": "Some new nuclear and geothermal projects may begin serving industrial demand. Large fleets of cheap new reactors remain less certain.",
+          "confidence": "Medium",
+          "window": "2030–2036",
+          "why": "Variable renewable supply increases the value of flexibility and dependable low-carbon output, but construction economics still decide deployment.",
+          "evidence": "The IEA projects rising nuclear output through 2030, alongside renewables and natural gas.",
+          "watch": "Projects completed on budget, licensing progress and contracted delivered power costs.",
+          "caveat": "No claim is made that every announced small reactor is operational by 2030, or that a power contract proves one exists.",
+          "refs": [
+            "electricity"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2033,
+      "phase": "The consequence years",
+      "title": "Discovery starts to accelerate.",
+      "summary": "AI can shorten parts of research. The distance from a promising result to a useful product still matters.",
+      "signal": "The lab-to-world gap",
+      "watch": "Track replicated discoveries, engineering scale-up and products that reach users.",
+      "takes": [
+        "AI scientific collaborators; narrow quantum usefulness.",
+        "Automated research pays off; fusion electricity demonstration.",
+        "Very lean agent-based firms; political succession uncertainty.",
+        "Autonomous labs; AR displaces phones; supersonic travel expands."
+      ],
+      "events": [
+        {
+          "id": "science",
+          "topic": "Space & science",
+          "title": "Faster loops in the laboratory",
+          "summary": "AI and automated experiments may speed discovery in materials and chemistry. The gains will differ sharply between fields.",
+          "confidence": "Medium",
+          "window": "2030–2036",
+          "why": "Research systems become more valuable when predictions are checked by experiments and the results feed the next investigation.",
+          "evidence": "The IEA identifies AI-led industrial innovation as a potential long-term source of productivity gains.",
+          "watch": "Replicated results, experiment throughput and commercially useful new materials.",
+          "caveat": "A faster discovery stage does not remove clinical trials, manufacturing limits or engineering qualification.",
+          "refs": [
+            "energy"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "quantum",
+          "topic": "Space & science",
+          "title": "Quantum advantage stays specialised",
+          "summary": "Fault-tolerant hardware could unlock useful scientific applications. A timetable for broad commercial value is still speculative.",
+          "confidence": "Speculative",
+          "window": "2029–2035+",
+          "why": "Error-corrected computation must be large, reliable and competitive with improving classical alternatives.",
+          "evidence": "IBM targets a 200-qubit Starling system in 2029 and a larger system in 2033+. These are vendor milestones.",
+          "watch": "Independent end-to-end advantage, error-corrected workload size and total cost.",
+          "caveat": "A roadmap is evidence of intent. It is not evidence that a practical quantum breakthrough has happened.",
+          "refs": [
+            "quantum"
+          ],
+          "origin": [
+            "astra"
+          ]
+        },
+        {
+          "id": "adapt",
+          "topic": "Climate",
+          "title": "Adaptation becomes core infrastructure",
+          "summary": "Cooling, flood protection and water resilience take a larger place in public budgets, with the largest gaps often where resources are weakest.",
+          "confidence": "High",
+          "window": "2030–2036",
+          "why": "Repeated disruption can shift the question from whether to adapt to which protections can actually be financed.",
+          "evidence": "UNEP finds a large shortfall between developing-country adaptation needs and international public finance.",
+          "watch": "Completed protection, heat mortality, water security and insured versus uninsured losses.",
+          "caveat": "We reject an exact year for a particular disaster or a $500bn single-event loss.",
+          "refs": [
+            "adaptation"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2034,
+      "phase": "The consequence years",
+      "title": "The hardest problems are human.",
+      "summary": "Ageing, distribution and security determine who benefits from new capabilities. Better tools do not settle political choices.",
+      "signal": "Institutions set the outcome",
+      "watch": "Watch who gains time, income and access—not only how much output rises.",
+      "takes": [
+        "AI-assisted R&D; new ways to distribute gains; adaptation grows.",
+        "More capable public services; great-power crisis; healthspan gains.",
+        "Early advanced-energy plants; service robots; drone-heavy militaries.",
+        "Home robots, fusion tests, digital trade and geoengineering pilots."
+      ],
+      "events": [
+        {
+          "id": "ageing",
+          "topic": "Health",
+          "title": "Care becomes a central economic need",
+          "summary": "Older populations increase pressure on care, pensions and staffing across much of Europe and East Asia. Automation helps with tasks, not every relationship.",
+          "confidence": "High",
+          "window": "2027–2036",
+          "why": "These pressures are already partly determined by existing age structures. They interact with migration, participation and public spending.",
+          "evidence": "UN projections show many populations already shrinking while others, including much of sub-Saharan Africa, continue to grow.",
+          "watch": "Care vacancies, healthy life expectancy, participation rates and service access.",
+          "caveat": "This is a regional pattern, not a claim that the world population contracts this decade.",
+          "refs": [
+            "population"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "distribution",
+          "topic": "World & economy",
+          "title": "Who gets the productivity dividend?",
+          "summary": "Tax, competition, training and working-time reforms become more prominent if AI gains concentrate among a small set of owners and firms.",
+          "confidence": "Medium",
+          "window": "2031–2036",
+          "why": "More output can translate into higher wages, lower prices, shorter hours or higher profits. Institutions shape the split.",
+          "evidence": "Labour-exposure evidence supports pressure for adaptation; it does not determine the policy response.",
+          "watch": "Median disposable incomes, labour’s income share, market concentration and access to retraining.",
+          "caveat": "Universal basic income, a four-day week and compute taxes are possible responses, not scheduled global outcomes.",
+          "refs": [
+            "jobs"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok"
+          ]
+        },
+        {
+          "id": "security",
+          "topic": "World & economy",
+          "title": "Security competes for the same resources",
+          "summary": "Defence and resilience remain major investment priorities, even if active wars subside. Fiscal trade-offs persist.",
+          "confidence": "Medium",
+          "window": "2028–2035",
+          "why": "People, industrial capacity and funding used for security are also needed for infrastructure, care and climate resilience.",
+          "evidence": "NATO’s 2035 spending framework includes core defence and wider security investment.",
+          "watch": "Delivered capability, resilience of supply chains and credible multi-year budgets.",
+          "caveat": "A commitment is not proof of delivery. We do not assign a specific year to a new great-power crisis or a leader’s succession.",
+          "refs": [
+            "nato"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2035,
+      "phase": "The consequence years",
+      "title": "Promises become measurable.",
+      "summary": "Roadmaps converge on the mid-2030s. The useful question is which have become working systems.",
+      "signal": "Targets face the delivery test",
+      "watch": "Distinguish a prototype, a repeatable product and meaningful system-wide adoption.",
+      "takes": [
+        "Post-quantum transition; large EV fleet; fusion pilot and lunar presence.",
+        "4–5% global growth; tens of millions of humanoids; possible Mars launch.",
+        "Uneven productivity phase change; demography and strategic rivalry.",
+        "Automated preventive care and construction; continuously inhabited Moon."
+      ],
+      "events": [
+        {
+          "id": "crypto",
+          "topic": "AI & society",
+          "title": "The cryptography transition matures",
+          "summary": "Quantum-resistant systems become increasingly normal, although legacy technology and slow migrations leave uneven coverage.",
+          "confidence": "Medium",
+          "window": "Now–2035+",
+          "why": "Sensitive data may need protection well before a cryptographically relevant quantum computer exists. Replacing infrastructure takes time.",
+          "evidence": "NIST plans to remove quantum-vulnerable algorithms from its standards by 2035, with high-risk systems moving sooner.",
+          "watch": "Inventories of vulnerable systems, tested interoperability and completed migrations.",
+          "caveat": "This is not the date quantum computers break the internet, or a universal legal deadline for every organisation.",
+          "refs": [
+            "pqc"
+          ],
+          "origin": [
+            "astra",
+            "gemini"
+          ]
+        },
+        {
+          "id": "fusion",
+          "topic": "Energy",
+          "title": "Fusion may reach the pilot stage",
+          "summary": "A credible pilot delivering electricity is possible by the mid-2030s. Cheap fusion at a scale that changes the global energy mix is a much larger leap.",
+          "confidence": "Speculative",
+          "window": "2033–2040+",
+          "why": "The challenge extends beyond fusion reactions to durable materials, reliable plant operations, fuel supply and cost.",
+          "evidence": "The US DOE roadmap aims to enable a pilot plant in the mid-2030s.",
+          "watch": "Net electricity at the plant boundary, uptime, maintenance and credible construction economics.",
+          "caveat": "We separate net fusion energy, net electricity and economically competitive generation. The original forecasts often compress these steps.",
+          "refs": [
+            "fusion"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "cars",
+          "topic": "Energy",
+          "title": "A much larger electric fleet",
+          "summary": "EVs account for far more road travel, with substantial regional differences. Replacing the existing vehicle stock takes longer than changing new sales.",
+          "confidence": "High",
+          "window": "2030–2035",
+          "why": "Charging, vehicle prices, electricity costs and industrial policy shape adoption. Road electrification does not end oil demand in every other use.",
+          "evidence": "IEA scenarios put the wider global EV fleet as high as 510 million in 2035, excluding two- and three-wheelers.",
+          "watch": "Affordable models, charging reliability and the share of kilometres driven electrically.",
+          "caveat": "The upper scenario is not a guaranteed count. Fleet size, new-car sales and battery-only cars are different measures.",
+          "refs": [
+            "ev"
+          ],
+          "origin": [
+            "astra"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2036,
+      "phase": "The consequence years",
+      "title": "More capable. Still complicated.",
+      "summary": "The central picture is a more automated, more electric and more climate-exposed world. Its prosperity and stability remain choices, not technological inevitabilities.",
+      "signal": "The gains are not automatic",
+      "watch": "Judge the decade by lived outcomes: health, security, time, opportunity and shared prosperity.",
+      "takes": [
+        "AI is embedded infrastructure; robots common; scarcity persists.",
+        "Cognition becomes abundant; control of compute defines politics.",
+        "Richer, hotter, automated and multipolar; no Mars residents.",
+        "Neural interfaces, resilient cities and a fragmented internet."
+      ],
+      "events": [
+        {
+          "id": "daily",
+          "topic": "AI & society",
+          "title": "AI becomes ordinary infrastructure",
+          "summary": "Capable software is woven into work and daily services. Human trust, judgement, care and accountability remain valuable.",
+          "confidence": "Medium",
+          "window": "2033–2036+",
+          "why": "The largest effect may be cheaper and more accessible services rather than a single recognisable “AGI event”.",
+          "evidence": "Current AI deployment and labour research support transformation, while leaving its scale uncertain.",
+          "watch": "Quality-adjusted service prices, access, working hours and independent measures of reliability.",
+          "caveat": "The broad direction is more defensible than a post-scarcity claim. Cognitive abundance does not make housing, care or energy free.",
+          "refs": [
+            "ai",
+            "jobs"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "uneven",
+          "topic": "World & economy",
+          "title": "Several futures coexist",
+          "summary": "Countries and households experience very different decades depending on institutions, education, reliable power and access to capital.",
+          "confidence": "High",
+          "window": "2027–2036",
+          "why": "A single global average can hide thriving regions, stagnation and severe local losses. Technology diffusion is neither immediate nor equal.",
+          "evidence": "UN population projections already describe divergent demographic paths; current macro forecasts remain uneven.",
+          "watch": "Median living standards, public-service access and whether less-connected regions share the gains.",
+          "caveat": "No defensible model can name election winners, guarantee peace or give precise 2036 GDP from this evidence.",
+          "refs": [
+            "population",
+            "imf"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        },
+        {
+          "id": "constraints",
+          "topic": "Climate",
+          "title": "Physical limits still count",
+          "summary": "More electrification and technical capability coexist with climate damage, scarce land, infrastructure needs and geopolitical tension.",
+          "confidence": "High",
+          "window": "Through 2036",
+          "why": "Progress can reduce costs without removing every constraint. The quality of public decisions affects how far the gains spread.",
+          "evidence": "Energy and adaptation outlooks point to large investment needs even as technology improves.",
+          "watch": "Resilient power and water, emissions, adaptation outcomes and conflict avoidance.",
+          "caveat": "A major war, pandemic, financial crisis or AI surprise could move the entire path. None is given a fabricated date.",
+          "refs": [
+            "electricity",
+            "adaptation"
+          ],
+          "origin": [
+            "astra",
+            "fable",
+            "grok",
+            "gemini"
+          ]
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "topic": "Ukraine & the Middle East",
+      "label": "A pause is not a durable peace",
+      "takes": [
+        "Ukraine armistice around 2028, plus or minus a year; Iran hostilities ease in 2027.",
+        "Ukraine ceasefire line in 2027, with continuing low-intensity conflict; weakened Iran.",
+        "Ukraine de facto freeze by 2028; recurring Middle East confrontation and shipping disruption.",
+        "No direct forecast of a Ukraine settlement or the Iran conflict."
+      ],
+      "verdict": "Ceasefire and unresolved conflict are plausible scenarios. None of these texts can establish a war’s end date; regional escalation could change the entire economic forecast.",
+      "refs": [
+        "imf"
+      ]
+    },
+    {
+      "topic": "AI capability & jobs",
+      "label": "Same direction, different speed",
+      "takes": [
+        "Practical AGI median around 2031; humans retain accountability.",
+        "Multi-day agents in 2027; expert cognition around 2028–30.",
+        "Major automation, but uneven productivity through 2035.",
+        "Predominantly autonomous routine work in 2027; no explicit AGI date."
+      ],
+      "verdict": "Retain rapid task automation as a plausible direction. Treat AGI dates, whole-job replacement and national growth impacts as separate, uncertain claims.",
+      "refs": [
+        "ai",
+        "jobs"
+      ]
+    },
+    {
+      "topic": "Taiwan & great-power conflict",
+      "label": "Three discuss Taiwan directly",
+      "takes": [
+        "No invasion in the central decade-long path.",
+        "No-war path is modal; reports roughly 25% war risk by 2036.",
+        "2028 crisis window; unattributed one-in-three invasion risk by end-2028.",
+        "Does not directly forecast Taiwan conflict."
+      ],
+      "verdict": "Absence is not agreement. Retain coercion as the central scenario and major conflict as a serious alternative; do not average incompatible, uncalibrated probabilities.",
+      "refs": [
+        "odni"
+      ]
+    },
+    {
+      "topic": "The AI investment cycle",
+      "label": "Two explicit correction calls",
+      "takes": [
+        "A substantial correction around 2028–30.",
+        "A 30–40% drawdown in 2028, with continued adoption.",
+        "Emphasises physical constraints and economics; no comparable dated crash.",
+        "Emphasises energy and debt constraints; no comparable dated crash."
+      ],
+      "verdict": "Investment disappointment is plausible. A precise crash year and magnitude add false precision, so the timeline treats this as a scenario.",
+      "refs": [
+        "energy",
+        "imf"
+      ]
+    },
+    {
+      "topic": "Robots at work & at home",
+      "label": "Controlled settings first",
+      "takes": [
+        "Industrial deployment in 2028; wider take-off around 2032.",
+        "Cost-effective industrial robots around 2031; tens of millions by 2035.",
+        "Factory economics improve in 2029; homes remain mostly human.",
+        "Viable industrial humanoids in 2028; wealthy homes around 2034."
+      ],
+      "verdict": "The workplace-before-home sequence is credible. Installed units, human interventions and total costs matter more than a memorable launch year.",
+      "refs": [
+        "ai"
+      ]
+    },
+    {
+      "topic": "Energy & nuclear power",
+      "label": "Targets need careful reading",
+      "takes": [
+        "Electricity bottlenecks; early SMRs around 2030–32; fusion pilot by 2035.",
+        "US/UK SMRs in 2029; fusion net electricity in 2033.",
+        "Fusion pilot in 2031; expensive early plants in 2034.",
+        "Modular deployments in 2027; commissioning in 2030; fusion tests in 2034."
+      ],
+      "verdict": "Keep the electricity constraint. Treat new nuclear and fusion dates as project-dependent windows; a contract, prototype and operating plant are different milestones.",
+      "refs": [
+        "electricity",
+        "fusion"
+      ]
+    },
+    {
+      "topic": "Climate & adaptation",
+      "label": "Direction clearer than the year",
+      "takes": [
+        "New annual heat record likely around 2026–30; adaptation expands.",
+        "20-year average crosses 1.5°C in 2030; $500bn disaster in 2033.",
+        "More costly disasters and insurance retreat; 2°C becomes planning assumption.",
+        "Water stress, resilient infrastructure and possible geoengineering pilots."
+      ],
+      "verdict": "Warming and adaptation pressure are strongly supported. Exact disaster years, threshold dates and unilateral geoengineering are not placed in the central path.",
+      "refs": [
+        "climate",
+        "adaptation"
+      ]
+    },
+    {
+      "topic": "Medicine & human enhancement",
+      "label": "Some breakthroughs are over-specified",
+      "takes": [
+        "Specific gene therapies and AI assistance; no general cure for ageing.",
+        "Common-condition gene editing in 2029; routine multi-cancer tests in 2031.",
+        "AI-designed drugs and modest longevity effects around 2031.",
+        "Routine preventive genomics by 2032; widespread neural assistance by 2036."
+      ],
+      "verdict": "Retain progress in specific treatments. Do not infer routine clinical benefit or mass access from early technical potential.",
+      "refs": [
+        "gene"
+      ]
+    },
+    {
+      "topic": "Moon, Mars & quantum",
+      "label": "Ambition is not evidence of delivery",
+      "takes": [
+        "Lunar return in 2029; limited lunar presence and narrow quantum uses later.",
+        "Moon around 2029–30; roughly 40% chance of crewed Mars launch in 2035.",
+        "Moon around 2030; no one living on Mars in 2036.",
+        "Continuous lunar habitation and extraction by 2035."
+      ],
+      "verdict": "A lunar return is plausible; sustained habitation and crewed Mars are weaker bets. Quantum roadmaps remain vendor targets until independently demonstrated.",
+      "refs": [
+        "artemis",
+        "quantum"
+      ]
+    }
+  ]
+}

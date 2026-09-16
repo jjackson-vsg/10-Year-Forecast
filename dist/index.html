@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101f29">
+  <title>The Next Ten Years — An evidence-led forecast, 2027–2036</title>
+  <meta name="description" content="Explore 2027–2036 through four AI forecasts, primary-source evidence, competing scenarios and honest uncertainty.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23101820'/%3E%3Cpath d='M4 23h24M7 19a9 9 0 0 1 18 0M16 3v4' fill='none' stroke='%23edb568' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Manrope:wght@400;500;600;650;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#timeline" data-view="timeline"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M5 21h22M8 18a8 8 0 0 1 16 0M16 3v3M4 9l3 2m21-2-3 2" stroke="currentColor" stroke-width="1.6"/></svg></span>HORIZON<span class="brand-years">2027—2036</span></a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="#timeline" data-view="timeline"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16M8 4v4m8 2v4m-5 2v4"/></svg><span>Timeline</span></a>
+      <a href="#compare" data-view="compare"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4v16m7-12v12m7-16v16M3 20h18"/></svg><span>Compare</span></a>
+      <a href="#evidence" data-view="evidence"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h10l4 4v14H5zM14 3v5h5M8 12h8m-8 4h6"/></svg><span>Evidence</span></a>
+      <a href="#method" data-view="method"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/></svg><span>About</span></a>
+    </nav>
+    <span class="header-edition">An illustrated forecast</span>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <section id="timeline" class="view" aria-labelledby="timeline-title">
+      <div class="page-intro wrap"><div><p class="eyebrow">An atlas of possible futures</p><h1 id="timeline-title" tabindex="-1">The next ten years<span>.</span></h1></div><p>Four AI forecasts, checked against the evidence.<br><span class="meta">Research snapshot · 16 September 2026</span></p></div>
+      <div class="mobile-year-controls" id="mobile-year-controls"><button type="button" class="icon-button" data-year-step="-1" aria-label="Previous year">←</button><button type="button" class="year-picker-button" data-open-years><span id="mobile-year-label">2027</span><span>All years <span aria-hidden="true">⌄</span></span></button><button type="button" class="icon-button" data-year-step="1" aria-label="Next year">→</button><div class="mobile-progress" aria-hidden="true"><span id="mobile-progress-fill"></span></div></div>
+      <div class="atlas-layout wrap"><aside class="year-sidebar"><p class="eyebrow">Your route through the decade</p><nav id="year-nav" aria-label="Choose a forecast year"></nav><button type="button" class="overview-button" data-open-years>See the whole decade <span aria-hidden="true">↗</span></button><p class="sidebar-note">Dates are windows.<br>Confidence is in the direction.</p><button type="button" class="text-button" data-confidence>How to read this <span aria-hidden="true">↗</span></button></aside><div class="timeline-reader"><div id="year-content"><h2>2027 · AI leaves the chat window.</h2><p>Explore a decade of work, energy, science and society in transition.</p></div></div></div>
+    </section>
+    <section id="compare" class="view wrap resource-view" aria-labelledby="compare-title" hidden></section>
+    <section id="evidence" class="view wrap resource-view" aria-labelledby="evidence-title" hidden></section>
+    <section id="method" class="view wrap resource-view" aria-labelledby="method-title" hidden></section>
+  </main>
+  <footer class="wrap site-footer"><span>HORIZON <span aria-hidden="true">/</span> 2027—2036</span><span>Evidence today. Possibilities tomorrow.</span><a href="#method" data-view="method">About this forecast ↗</a></footer>
+  <p id="navigation-status" class="sr-only" role="status" aria-live="polite"></p>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-toolbar"><span class="eyebrow">HORIZON · Field notes</span><button type="button" class="dialog-close icon-button" aria-label="Close panel" autofocus>×</button></div><div id="detail-content"></div></dialog>
+  <noscript><p class="wrap">Enable JavaScript to explore the interactive timeline. The original forecasts are available at <a href="https://github.com/jjackson-vsg/10-Year-Forecast">jjackson-vsg / 10-Year-Forecast</a>.</p></noscript>
+</body></html>
